@@ -1,0 +1,21 @@
+class Junk:
+    def f1(s):
+        print('Chocolate')
+    def f2(s):
+        print('Gummies')
+    def f3(s):
+        print('Maggie')
+class Foof(Junk):
+    def f4(s):
+        print('Lays')
+    def f5(s):
+        print('Uncle Chips')
+    def f6(s):
+        print('Yipee')
+class Snacks(Food):
+    def f7(s):
+        print('Coke')
+    def f8(s):
+        print('7UP')
+    def f9(s):
+        print('Sprite')
