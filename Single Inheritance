@@ -1,0 +1,15 @@
+class Food:
+    def f1(s):
+        print('Pasta')
+    def f2(self):
+        print('Pizza')
+    def f3(self):
+        print('Burger')
+class Menu(Food):
+    def f4(s):
+        print('Shakes')
+    def f5(s):
+        print('Mocktails')
+    def f6(s):
+        print('Cocktails')
+      
